@@ -4,7 +4,7 @@ import com.beniregev.model.Machine;
 
 import java.util.Set;
 
- public class ClockCheckDAO {
+ public interface ClockCheckDAO {
 
     /**
      * Check the clock for this machine against the DB clock.
